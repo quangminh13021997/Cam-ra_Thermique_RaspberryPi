@@ -114,7 +114,7 @@ Vient ensuite le dessin de l'interface principale, constituée de 3 éléments :
 - et 1 ligne de texte pour afficher la température du visage humain.
 
 ```
-# le dessin de l'interface
+# Le dessin de l'interface
 fig = plt.figure(figsize=(8, 6))  
 fig.canvas.set_window_title('Hệ thống giám sát nhiệt độ ra/vào')
 fig.canvas.toolbar_visible = False
@@ -122,11 +122,11 @@ ax = fig.add_subplot(1, 2, 1)
 ax2 = fig.add_subplot(1, 2, 2)
 fig.subplots_adjust(0.05, 0.05, 0.95, 0.95) 
 
-# afficher l'image thermique
+# Afficher l'image thermique
 therm1 = ax.imshow(np.zeros(mlx_interp_shape), interpolation='none',
                    cmap=plt.cm.bwr, vmin=25, vmax=45)  # preemptive image
 
-# afficher l'image normal
+# Afficher l'image normal
 therm2 = ax2.imshow(np.zeros((240, 320)), interpolation='none',
                     cmap=plt.cm.bwr, vmin=25, vmax=45)  
 

@@ -1,6 +1,6 @@
 # Camera_Thermique_RaspberryPi
 
-Dans le projet,on utilise OpenCV pour détecter le visage et la température du visage humain. Notre problème sera de reconnaître les personnes qui entrent et sortent et d'enregistrer leur température, et d'avertir si cette personne a de la fièvre. Cela aidera à prévenir la propagation du COVID-19.
+Dans le projet, j'utilise OpenCV pour détecter le visage et la température du visage humain. Notre problème sera de reconnaître les personnes qui entrent et sortent et d'enregistrer leur température, et d'avertir si cette personne a de la fièvre. Cela aidera à prévenir la propagation du COVID-19.
 
 ## I) Hardwares 
 - Raspberry Pi 4 

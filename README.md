@@ -11,4 +11,4 @@ Dans le projet,on utilise OpenCV pour détecter le visage et la température du 
 # II) Installer le système d'exploitation pour Pi
 
 Tout à bord , on télécharge le logiciel Raspberry Pi Imager: https://www.raspberrypi.com/software
-
+<img width="679" alt="Screen Shot 2020-08-22 at 21 59 33" src="https://user-images.githubusercontent.com/46745468/151544621-795cf099-3bef-4f93-ae7d-5b2c8f70a32b.png">
